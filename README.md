@@ -2,9 +2,7 @@
 
 A C function that reads any valid file line by line until the end. Function can handle reading multiple files simultaneuosly.
 
-## Contents
-
-### TOC
+### Contents
 * [What is get_next_line?](#what-is-get_next_line)
 * [Why would I use/try it?](#why-would-i-use-it)
 * [How do I use it?](#how-do-i-use-it)
@@ -19,7 +17,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### How do I use it?
+## How do I use it?
 
 A step by step series of examples that tell you have to get a development env running
 
