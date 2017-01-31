@@ -1,10 +1,15 @@
 # Project Title
 
-One Paragraph of project description goes here
+A C function that reads any valid file line by line until the end. Function can handle reading multiple files simultaneuosly.
 
-## Getting Started
+## Contents
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### TOC
+* [What is get_next_line?](#what-is-get_next_line)
+* [Why would I use/try it?](#why-would-i-usetry-it)
+* [How do I use it?](#how-do-i-use-it)
+* [How do I try it out?](#how-do-i-try-it-out)
+* [How do I test my own code?](#how-do-i-test-it?)
 
 ### Prerequisites
 
