@@ -15,11 +15,11 @@ Get_next line is an individual project at [42 Code school] [1] that basically re
 
 You will only really need to use this function if you are a 42 Student. Otherwise, there are already standard implementations that do the same thing such at [getline][3].
 
-This project is meant to be a learning experience that will teach you about static variables, linked lists, pointers, and dynamic memory allocation. It requires that you implement the function only using the standard library functions 'read', 'malloc', and 'free'.
+This project is meant to be a learning experience that will teach you about static variables, linked lists, pointers, and dynamic memory allocation. It requires that you implement the function only using the standard library functions `read`, `malloc`, and `free`.
 
 ### How do I use it?
 
-To run get_next_line, you'll need a main function. Fortunately I've included one in the file main.c that takes a file name as argument, opens it, and passes the file descriptor to get_next_line until the function returns -1 or 0. 
+To run get_next_line, you'll need a main function. Fortunately I've included one in the file `main.c` that takes a file name as argument, opens it, and passes the file descriptor to get_next_line until the function returns -1 or 0. 
 
 These return values signify that either an error occured or the entire contents have been read, respectively. The function returns a 1 if a line was succesfully read.
 
@@ -40,13 +40,13 @@ Then, build the executable:
 
 		gcc -Wall -Werror -Wextra -I./libft/ -L./libft -lft -o getnextline get_next_line.c main.c
 
--I tells the compiler where your library header files are. In this case simply in the libft folder './libft'.
+-I tells the compiler where your library header files are. In this case simply in the libft folder `./libft`.
 
 -L tells it where your to find your actual library. Also in `./libft` since you've just created it with 'make'.
 
--l takes the name of your library. This is the set of characters that come after 'lib' in your library name.
+-l takes the name of your library. This is the set of characters that come after `lib` in your library name.
 
-The last command created an executable in your directory called 'getnextline'. Now test it by running:
+The last command created an executable in your directory called `getnextline`. Now test it by running:
 
 		./getnextline sea_wolf.txt
 
