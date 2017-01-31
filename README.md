@@ -6,7 +6,7 @@ A C function that reads any valid file line by line until the end. Function can 
 
 ### TOC
 * [What is get_next_line?](#what-is-get_next_line)
-* [Why would I use/try it?](#why-would-i-usetry-it)
+* [Why would I use/try it?](#why-would-i-use-it)
 * [How do I use it?](#how-do-i-use-it)
 * [How do I try it out?](#how-do-i-try-it-out)
 * [How do I test my own code?](#how-do-i-test-it?)
@@ -19,7 +19,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
+### How do I use it?
 
 A step by step series of examples that tell you have to get a development env running
 
